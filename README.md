@@ -1,8 +1,6 @@
 # CodeAlpha_musicplayer
 Music Player Project
 
-A simple music player built using HTML, CSS, and JavaScript.
-
 Features:
 
 - Play, pause, and stop music controls
@@ -27,10 +25,13 @@ How to Use:
 
 Files:
 
-- index.html: The main HTML file for the music player layout
-- styles.css: The CSS file for styling and layout
-- script.js: The JavaScript file for functionality and music playback
+- musicplayer.html: The main HTML file for the music player layout
+- musicstyle.css: The CSS file for styling and layout
+- main.js: The JavaScript file for functionality and music playback
 - music.mp3: A sample music file (replace with your own music file)
+
+OUTPUT:
+MUSIC PLAYER OF 3 MUSIC TONES
 
 Author:
 
