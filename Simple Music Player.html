@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/gokul/Desktop/xampp/htdocs/musicplayer.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Music Player</title>
+  <!-- Load FontAwesome icons -->
+  <link rel="stylesheet" href="./Simple Music Player_files/all.min.css">
+
+  <!-- Load the custom CSS style file -->
+  <link rel="stylesheet" type="text/css" href="./Simple Music Player_files/musicstyle.css">
+</head>
+<body style="background: rgb(132, 85, 255);">
+  <div class="player">
+    <div class="details">
+      <div class="now-playing">PLAYING 1 OF 3</div>
+      <div class="track-art" style="background-image: url(&quot;https://pics.craiyon.com/2023-10-31/e87770adae7e46cabc5970f57c84118b.webp&quot;);"></div>
+      <div class="track-name">Night Owl</div>
+      <div class="track-artist">Broke For Free</div>
+    </div>
+    <div class="buttons">
+      <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+      <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-pause-circle fa-5x"></i></div>
+      <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+    </div>
+    <div class="slider_container">
+      <div class="current-time">00:27</div>
+      <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+      <div class="total-duration">02:51</div>
+    </div>
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+    </div>
+  </div>
+
+  <!-- Load the main script for the player -->
+  <script src="./Simple Music Player_files/main.js.download"></script>
+
+</body></html>
